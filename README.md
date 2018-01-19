@@ -10,38 +10,47 @@ The various commands supported by the C-Shell is:
    * cd ..  : takes you to the parent directory  
    * cd ~   : takes you to the root directory  
    * cd [dirname]   : takes you to the directory name specified
+   
   #### 2) echo
   This displays a line of text. The flags supported are:  
    * echo -n  : do not output the trailing newline  
    * echo -e  : enable interpretation of backslash escapes  
+   
   #### 3) history
   Many programs read input from the user a line at a time.  The GNU  His‐tory  library is able to keep track of those lines,   associate arbitrary data with each line. The flags supported are:  
    * history -c  : This clears the history  
    * history [n]  : Will output the last n commands entered by the user  
+  
   #### 4) pwd
   This prints the name of current/working directory. The flags supported are:  
    * pwd --help  : display this help and exit  
    * pwd --version  : output version information and exit  
+  
   #### 5) exit
   This causes normal process termination.  
+  
   #### 6) mkdir
   This make directories. The flags supported are:  
    * mkdir -v  : print a message for each created directory  
    * mkdir -p  : creates the parent directories as well  
    * mkdir --help  : display this help and exit  
+  
   #### 7) rm
   This remove files or directories. The flags suuported are:  
    * rm -d  : remove empty directories  
    * rm -f  : ignore nonexistent files and arguments, never prompt  
    * rm -v  : explain what is being done   
+  
   #### 8) ls
   This list directory contents. The flags supported are:  
    * ls -U  : do not sort; list entries in directory order  
    * ls -a  : do not ignore entries starting with .    
+  
   #### 9) cat
   This concatenates files and print on the standard output. The flags supported are:  
    * cat -E  : display $ at end of each line  
    * cat -n  : number all output lines  
+  
   #### 10) date
   This prints or set the system date and time. The flags supported are:  
    * date -u  : print or set Coordinated Universal Time (UTC)  
@@ -99,4 +108,11 @@ Clone the Repository and set it up on your Desktop. Open Terminal(Ctrl+Alt+T) an
   #### 10) date
    * In case of an unsupported argument specified, the shell prompts invalid argument.  
    * In -r argument, the shell prompts if the file doesn't exists.  
- 
+   
+   
+## Testing
+To test the code, open the file test.txt. A few test cases have been mentioned in the file. Those commands can be typed in line by line to check the correctness of the shell.
+
+## Licensing
+Author : Meghna Gupta
+Feel free to point out issues! Pull Requests will be welcomed!
