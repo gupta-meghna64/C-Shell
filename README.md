@@ -114,5 +114,5 @@ Clone the Repository and set it up on your Desktop. Open Terminal(Ctrl+Alt+T) an
 To test the code, open the file test.txt. A few test cases have been mentioned in the file. Those commands can be typed in line by line to check the correctness of the shell.
 
 ## Licensing
-Author : Meghna Gupta
-Feel free to point out issues! Pull Requests will be welcomed!
+Author : Meghna Gupta  
+Feel free to point out issues! Pull Requests will be welcomed!  
