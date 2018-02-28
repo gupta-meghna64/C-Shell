@@ -1,0 +1,39 @@
+pwd
+cd ..
+pwd
+cd ~
+pwd
+ls
+ls -a
+date
+date -u
+cd Desktop
+ls
+cat Recurse_Retrace.java
+echo -n "abf\t"
+echo -e "absue\nsiw"
+echo -e "a\nb\nc\td\te"
+date -r Recurse_Retrace.java
+pwd
+cd OS
+cd winter2018
+cd assignments
+pwd
+cd OS
+cd assignments
+cd
+pwd
+history 20
+history -c
+mkdir -p /home/meghna/testfolder/nest
+ls
+cd testfolder
+ls
+rm -d nest
+ls
+cd ..
+ls
+rm -d testfolder
+ls
+pwd
+exit
